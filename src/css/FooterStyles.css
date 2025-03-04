@@ -1,0 +1,10 @@
+footer {
+  background-color: gray;
+  margin-top: auto;
+  padding-block: 15px;
+  padding-inline: 20px;
+}
+
+strong {
+  float: right;
+}
