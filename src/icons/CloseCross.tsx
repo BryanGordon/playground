@@ -14,7 +14,6 @@ export const Cross = (handleChange) => {
       stroke-linecap="round"  
       stroke-linejoin="round"  
       id='close-cross-icon'
-      onClick={() => handleChange}
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
       <path d="M18 6l-12 12" />
