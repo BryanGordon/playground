@@ -1,0 +1,31 @@
+.container-modal {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(245, 245, 245, 0.652);
+  position: fixed;
+  margin: 0;
+  align-items: center;
+}
+
+.container-info-modal {
+  background-color: whitesmoke;
+  padding: 45px;
+  border-radius: 15px;
+  width: 50%;
+  height: 25%;
+  color: black;
+}
+
+.close-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+#close-cross-icon:hover {
+  background-color: crimson;
+  border-radius: 20px;
+  transform: rotate(90deg);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
