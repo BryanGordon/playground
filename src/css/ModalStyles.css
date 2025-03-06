@@ -7,6 +7,10 @@
   align-items: center;
 }
 
+.non-display {
+  visibility: hidden;
+}
+
 .container-info-modal {
   background-color: whitesmoke;
   padding: 45px;
