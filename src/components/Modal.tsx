@@ -1,19 +1,18 @@
 import { useState } from 'react'
 import '../css/ModalStyles.css'
 import { Cross } from '../icons/CloseCross'
+import useStore from '../lib/store'
 
 export function Modal () {
-  const [isHidden, setIsHidden] = useState(true)
-
-  const handleChange = () => {
-    setIsHidden(!isHidden)
-    console.log(isHidden)
-  }
+  const isHidden = useStore((state) => state.active)
+  const handleChange = useStore((state) => state.changeActive)
+  const activeStyle = 'container-modal'
+  const disableStyle = 'non-display'
 
   return (
-    <article className='container-modal'>
+    <article className={isHidden ? disableStyle : activeStyle}>
       <div className='container-info-modal'>
-        <button className='close-icon' onClick={() => handleChange()}>
+        <button className='close-icon' onClick={handleChange}>
           <Cross />
         </button>
         <h2>Modal title</h2>
