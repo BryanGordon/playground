@@ -1,4 +1,5 @@
 import '../css/NavbarStyles.css'
+import { MenuHamburguer } from '../icons/MenuHamburger'
 
 export function Navbar () {
   return (
@@ -13,7 +14,11 @@ export function Navbar () {
         <li>
           Something 2
         </li>
+        <li id='icon-menu'>
+          <MenuHamburguer />
+        </li>
       </ul>
+
     </nav>
   )
 }
