@@ -4,6 +4,23 @@ nav {
 
 ul {
   display: flex;
+  padding: 0;
   justify-content: space-around;
   list-style: none;
+}
+
+#icon-menu {
+  display: none;
+}
+
+/* Media querie para menu hamburguesa*/
+
+@media screen and (width <= 700px) {
+  #icon-menu {
+    display: inline;
+  }
+
+  li {
+    display: none;
+  }
 }
