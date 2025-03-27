@@ -12,9 +12,11 @@ export function Modal () {
   return (
     <article className={isHidden ? disableStyle : activeStyle}>
       <div className='container-info-modal'>
+        <div className='ff'>
         <button className='close-icon' onClick={handleChange}>
           <Cross />
         </button>
+        </div>
         <h2>Modal title</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos temporibus nobis id vero velit quasi accusamus recusandae perferendis aliquid?</p>
       </div>
