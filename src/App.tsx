@@ -1,7 +1,7 @@
 import { Content } from './components/Content'
 import { Footer } from './components/Footer'
 import { Header } from './components/Header'
-// import { Modal } from './components/Modal'
+import { Modal } from './components/Modal'
 import { StickyButton } from './components/StickyButton'
 
 function App () {
@@ -11,6 +11,7 @@ function App () {
       <div className='blank-space' />
       <Content />
       <Content />
+      <Modal />
       <Content />
       <StickyButton />
       <Footer />
