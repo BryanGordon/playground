@@ -20,10 +20,15 @@
   color: black;
 }
 
-.close-icon {
+.ff {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 20px;
+}
+
+.close-icon {
+  display: flex;
+  background-color: aquamarine;
 }
 
 #close-cross-icon:hover {
