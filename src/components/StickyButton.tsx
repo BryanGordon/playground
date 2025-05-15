@@ -3,7 +3,7 @@ import { Arrow } from '../icons/ArrowHome'
 
 export function StickyButton () {
   return (
-    <a href='/' className='home-button'>
+    <a href='#inicio' className='home-button'>
       <Arrow />
     </a>
   )

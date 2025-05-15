@@ -10,5 +10,5 @@
   right: 10px;
   border: none;
   align-content: center;
-
+  scroll-behavior: smooth;
 }
