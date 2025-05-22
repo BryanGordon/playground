@@ -1,0 +1,30 @@
+.card:hover {
+  filter: blur(0px);
+}
+
+.blur-container:has(:hover) :not(:hover) {
+  transform: scale(0.95);
+  filter: blur(3px);
+}
+
+.blur-container {
+  margin-top: 10px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+
+.card {
+  width: 140px;
+  aspect-ratio: 2/3;
+  cursor: pointer;
+  transition: filter 0.2s ease-in-out, transform 0;  
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
