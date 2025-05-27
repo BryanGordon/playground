@@ -1,0 +1,17 @@
+section {
+  margin: 15px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+img {
+  border-radius: 4px;
+}
+
+.img-main {
+  width: 50%;
+}
