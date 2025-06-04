@@ -7,20 +7,16 @@ import { Transition } from './components/Transition'
 import { TransitionDetail } from './components/TransitionDetail'
 // import { SlideCarrousel } from './components/SlideCarrousel'
 // import { Header } from './components/Header'
-// import { Modal } from './components/Modal'
+import { Modal } from './components/Modal'
 // import { StickyButton } from './components/StickyButton'
 
 function App () {
   return (
-    <Router>
-        <main>
-        <Routes>
-          <Route path='/' element={<Transition />} />
-          <Route path='/transition-detail' element={<TransitionDetail />} />
-        </Routes>
-        <Footer />
-        </main>
-      </Router>
+    <main>
+      <Content />
+      <Modal />
+      <Footer />
+    </main>
   )
 }
 
